@@ -108,6 +108,10 @@
       <Project>{26ed8c79-1b9a-4062-962e-a1af55b9de1a}</Project>
       <Name>GoodStore.DataAccess</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GoodStore.Domain\GoodStore.Domain.csproj">
+      <Project>{B2B7C182-5151-4A45-9367-55362906ED09}</Project>
+      <Name>GoodStore.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

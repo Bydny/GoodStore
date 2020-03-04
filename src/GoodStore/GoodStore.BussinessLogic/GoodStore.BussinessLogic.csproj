@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\Services\IService.cs" />
     <Compile Include="DTOs\ClientDto.cs" />
     <Compile Include="DTOs\GoodDto.cs" />
     <Compile Include="DTOs\GoodSaleDto.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="DTOs\StoreUserDto.cs" />
     <Compile Include="Abstractions\Services\IGoodTypeService.cs" />
     <Compile Include="Implementation\Services\GoodTypeService.cs" />
+    <Compile Include="Implementation\Services\Service.cs" />
     <Compile Include="Infrastructure\AutomapperProfiles\ClientProfile.cs" />
     <Compile Include="Infrastructure\AutomapperProfiles\GoodProfile.cs" />
     <Compile Include="Infrastructure\AutomapperProfiles\GoodSaleProfile.cs" />

@@ -22,6 +22,7 @@ namespace GoodStore.ClientApp
             BindMapper();
             BindContext();
 
+            Bind(typeof(IService<,>)).To(typeof(Service<,>));
             Bind(typeof(IRepository<>)).To(typeof(EfRepository<>));
 
             Bind<IGoodTypeService>().To<GoodTypeService>();
