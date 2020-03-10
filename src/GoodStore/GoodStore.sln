@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodStore.ClientApp", "Good
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodStore.BussinessLogic", "GoodStore.BussinessLogic\GoodStore.BussinessLogic.csproj", "{02BE32A1-E8A9-495F-BCF3-B1E60142AFED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodStore.UnitTests", "..\..\tests\GoodStore.UnitTests\GoodStore.UnitTests.csproj", "{A2EADF1E-3634-46DA-811A-EBB906264A06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{02BE32A1-E8A9-495F-BCF3-B1E60142AFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02BE32A1-E8A9-495F-BCF3-B1E60142AFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02BE32A1-E8A9-495F-BCF3-B1E60142AFED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EADF1E-3634-46DA-811A-EBB906264A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EADF1E-3634-46DA-811A-EBB906264A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EADF1E-3634-46DA-811A-EBB906264A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EADF1E-3634-46DA-811A-EBB906264A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

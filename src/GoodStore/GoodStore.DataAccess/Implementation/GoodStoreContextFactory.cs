@@ -11,7 +11,7 @@ namespace GoodStore.DataAccess.Implementation
     {
         public GoodStoreContext Create()
         {
-            return new GoodStoreContext("Server=(localdb)\\mssqllocaldb;Database=GoodStore;Trusted_Connection=True;");
+            return new GoodStoreContext("Server=WSA-055-31;Database=GoodStore;Trusted_Connection=True;");
         }
     }
 }
