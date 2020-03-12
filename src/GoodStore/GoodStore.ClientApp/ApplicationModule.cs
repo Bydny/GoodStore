@@ -33,8 +33,11 @@ namespace GoodStore.ClientApp
             var connectionString =
                 System.Configuration.ConfigurationManager.ConnectionStrings["GoodStore"].ConnectionString;
 
+            var dbContextFactory = new GoodStoreContextFactory();
+            dbContextFactory.UpdateDatabase();
+
             Bind(typeof(DbContext))
-                .ToMethod(_ => new GoodStoreContextFactory().Create());
+                .ToMethod(_ => dbContextFactory.Create());
         }
 
         private void BindMapper()
